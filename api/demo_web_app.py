@@ -11,7 +11,7 @@ from .gpt import set_openai_key, Example
 from .ui_config import UIConfig
 
 CONFIG_VAR = "OPENAI_CONFIG"
-KEY_NAME = "OPENAI_KEY"
+KEY_NAME = "OPENAI_API_KEY"
 
 
 def demo_web_app(gpt, config=UIConfig()):
